@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-
+import './Hotels.css'
 const Hotels = () => {
   const [hotels, setHotels] = useState([]);
 
@@ -14,7 +14,7 @@ const Hotels = () => {
 
 
   return (
-    <div>
+    <div className="hotels-container">
       <h2>Hotels</h2>
       <ul>
         {hotels.map((hotel) => (

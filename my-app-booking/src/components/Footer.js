@@ -1,7 +1,8 @@
 import React from 'react';
+import './Footer.css';
 
 const Footer = () => (
-  <footer style={{ textAlign: 'center', padding: '20px', background: '#eee' }}>
+  <footer className="footer">
     © 2025 Hotels App
   </footer>
 );

@@ -1,12 +1,13 @@
 import React from 'react';
 import { AppBar, Toolbar, Button } from '@mui/material';
+import '../components/Header.css';
 
 const Header = () => (
-  <AppBar position="static">
+  <AppBar position="static" className="AppBar">
     <Toolbar>
-      <Button color="inherit" href="/">Main</Button>
-      <Button color="inherit" href="/about">About</Button>
-      <Button color="inherit" href="/hotels">Hotels</Button>
+      <Button className="Button" href="/">Main</Button>
+      <Button className="Button" href="/about">About</Button>
+      <Button className="Button" href="/hotels">Hotels</Button>
     </Toolbar>
   </AppBar>
 );
