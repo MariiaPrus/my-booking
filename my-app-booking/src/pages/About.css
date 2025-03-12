@@ -1,0 +1,24 @@
+.about-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: left;
+    background-color: #E4EAF2;
+}
+.about-container h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #594936;
+    margin-bottom: 15px;
+}
+
+.about-container p {
+    font-size: 16px;
+    color: #736048;
+    line-height: 1.6;
+}
+.about-container ul {
+    font-size: 16px;
+    color: #736048;
+    line-height: 1.6;
+}

@@ -1,0 +1,26 @@
+.AppBar {
+    background-color: #C1C7D9 !important;
+    box-shadow: none;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Toolbar {
+    display: flex;
+    gap: 15px;
+}
+
+.Button {
+    color: #736048 !important;
+    background-color: #C1C7D9 !important;
+    padding: 35px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.Button:hover {
+    background-color: #A197A6!important;
+}
