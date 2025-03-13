@@ -12,7 +12,7 @@ const Form = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/destination")
+      .get("http://localhost:3001/destination")
       .then(res => setDestinations(res.data))
       .catch(error => console.error("Error fetching destinations:", error));
   }, []);

@@ -4,3 +4,21 @@
         color: #594936;
         margin-bottom: 15px;
 }
+
+.hotels-ul {
+list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hotels-ul li {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    }
