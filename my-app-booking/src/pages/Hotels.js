@@ -7,7 +7,7 @@ const Hotels = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/hotels")
+      .get("http://localhost:3001/hotels")
       .then(res => setHotels(res.data))
       .catch(error => console.error("Error fetching destinations:", error));
   }, []);
@@ -16,7 +16,7 @@ const Hotels = () => {
   return (
     <div className="hotels-container">
       <h2>Hotels</h2>
-      <ul>
+      <ul className="hotels-ul">
         {hotels.map((hotel) => (
           <li key={hotel.id}>{hotel.name}</li>
         ))}
